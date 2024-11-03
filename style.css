@@ -1,0 +1,52 @@
+/* Centrer le conteneur */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+/* Style de la carte blanche */
+.card-white {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style de base pour les liens */
+.card-white a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.card-white a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les images */
+.card-white img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Style pour la liste des réseaux sociaux */
+.card-white ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-white li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.card-white li a {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-white li a:hover {
+    text-decoration: underline;
+}
